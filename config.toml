@@ -1,4 +1,4 @@
-baseURL = "blackarrowgang.github.io"
+baseURL = "https://blackarrowgang.github.io/Landing/"
 title   = "Black Arrow Gang"
 languageCode = "en-us"
 theme = "hello-friend-ng"
