@@ -137,7 +137,7 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoMark     = ">"
-    logoText     = "$ cd /root/"
+    logoText     = "$ cd ~/"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
@@ -197,11 +197,11 @@ disableHugoGeneratorInject = false
     [languages.en.params]
         homeSubtitle = "The Best Software Development Studio"
 
-  [languages.fr]
-    subtitle  = "Hello World!"
+  [languages.es]
+    subtitle  = "Hola Mundo!"
     weight    = 2
-    [languages.fr.params]
-        homeSubtitle = "The Best Software Development Studio"
+    [languages.es.params]
+        homeSubtitle = "El Mejor Estudio de Desarrollo de Software"
 
 [menu]
   [[menu.main]]
@@ -209,6 +209,6 @@ disableHugoGeneratorInject = false
     name       = "About"
     url        = "about/"
   [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
+    identifier = "contact"
+    name       = "Contact"
+    url        = "contact/"

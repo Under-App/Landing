@@ -1,7 +1,7 @@
 +++
-title = "About"
+title = "Contactanos"
 date = "2014-04-09"
-aliases = ["about-us","about-hugo"]
+aliases = ["contact"]
 [ author ]
   name = "Hugo Authors"
 +++
