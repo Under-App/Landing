@@ -12,18 +12,15 @@ const chosenThemeIsLight = chosenTheme == "light";
 
 // Detect the color scheme the operating system prefers.
 function detectOSColorTheme() {
-  // hardcode the theme to dark theme
-  document.documentElement.setAttribute("data-theme", "dark");
-  
-  // if (chosenThemeIsDark) {
-  //   document.documentElement.setAttribute("data-theme", "dark");
-  // } else if (chosenThemeIsLight) {
-  //   document.documentElement.setAttribute("data-theme", "light");
-  // } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-  //   document.documentElement.setAttribute("data-theme", "dark");
-  // } else {
-  //   document.documentElement.setAttribute("data-theme", "light");
-  // }
+  if (chosenThemeIsDark) {
+    document.documentElement.setAttribute("data-theme", "dark");
+  } else if (chosenThemeIsLight) {
+    document.documentElement.setAttribute("data-theme", "light");
+  } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    document.documentElement.setAttribute("data-theme", "dark");
+  } else {
+    document.documentElement.setAttribute("data-theme", "light");
+  }
 }
 
 // Switch the theme.
@@ -50,5 +47,8 @@ if (themeToggle) {
 
   detectOSColorTheme();
 } else {
+  // hardcode the theme to dark theme
+  document.documentElement.setAttribute("data-theme", "dark");
+  
   localStorage.removeItem("theme");
 }
