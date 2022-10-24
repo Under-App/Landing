@@ -55,9 +55,9 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "Nice theme for homepages and blogs"
-  keywords = ""
-  images = [""]
+  description = "The Best Software Development Studio"
+  keywords = "Software Development, Black Arrow Gang"
+  images = ["/images/watermark_logo_transparent_background.png"]
 
   # Home subtitle of the index page.
   #
@@ -111,7 +111,7 @@ disableHugoGeneratorInject = false
   #
   [params.footer]
     trademark = false
-    rss = true
+    rss = false
     copyright = false
     author = false
 
@@ -137,7 +137,7 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoMark     = ">"
-    logoText     = "$ cd ~/"
+    logoText     = "$ cd ~"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
