@@ -137,7 +137,7 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoMark     = ">"
-    logoText     = "$ cd ~"
+    logoText     = "$ cd ~/"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
@@ -164,7 +164,6 @@ disableHugoGeneratorInject = false
   [params.portrait]
     path     = "/images/watermark_logo_transparent_background.png"
     alt      = "Portrait"
-    maxWidth = "500px"
 
   [params.Video]
     path     = "/images/Flame-9049.mp4"

@@ -134,8 +134,34 @@ img {
   }
   &.circle {
     border-radius: 50%;
-    max-width: 25%;
+    // max-width: 25%;
+    max-width: 650px;
     margin: auto;
+    
+    @media (max-width: 900px) {
+      max-width: 600px;
+    }
+    @media (max-width: 700px) {
+      max-width: 500px;
+    }
+    @media (max-width: 600px) {
+      max-width: 450px;
+    }
+    @media (max-width: 550px) {
+      max-width: 400px;
+    }
+    @media (max-width: 500px) {
+      max-width: 350px;
+    }
+    @media (max-width: 450px) {
+      max-width: 300px;
+    }
+    @media (max-width: 350px) {
+      max-width: 250px;
+    }
+    @media (max-width: 250px) {
+      max-width: 150px;
+    }
   }
 }
 

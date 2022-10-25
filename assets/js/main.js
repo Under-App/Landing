@@ -52,3 +52,5 @@ if (themeToggle) {
   
   localStorage.removeItem("theme");
 }
+
+document.documentElement.setAttribute("data-theme", "dark");
