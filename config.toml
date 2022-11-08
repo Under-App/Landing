@@ -1,4 +1,4 @@
-baseURL = "https://blackarrowgang.github.io/Landing/"
+baseURL = "https://under-app.github.io/Landing/"
 title   = "Under App"
 languageCode = "en-us"
 theme = "hello-friend-ng"
@@ -37,7 +37,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Jane Doe"
+  name = "Joshua Saucedo"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -190,7 +190,7 @@ disableHugoGeneratorInject = false
     identifier = "about"
     name       = "About"
     url        = "about/"
-    
+
   [[menu.main]]
     identifier = "services"
     name       = "Services"
