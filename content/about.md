@@ -1,19 +1,15 @@
 +++
-title = "About"
-date = "2014-04-09"
-aliases = ["about-us","about-hugo"]
+title = "About Us"
+date = "2022-11-07"
+aliases = ["about-us"]
 [ author ]
   name = "Hugo Authors"
 +++
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+We are a *Software Development* company that specializes in creating solutions with *Software* for companies and organizations.
 
-It makes use of a variety of open source projects including:
+Our *objective* is to provide technological solutions to our clients, so that they can carry out their projects in a more efficient and simple way.
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+Our *team* is made up of *professionals with extensive experience* in software development, who are in charge of providing *custom solutions* for each client.
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+Our *service* is based on *quality* and *efficiency*, so we strive to provide quality service to our clients.
