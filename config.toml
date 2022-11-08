@@ -1,5 +1,5 @@
 baseURL = "https://blackarrowgang.github.io/Landing/"
-title   = "Black Arrow Gang"
+title   = "Under App"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -56,8 +56,8 @@ disableHugoGeneratorInject = false
   # Metadata mostly used in document's head
   # 
   description = "The Best Software Development Studio"
-  keywords = "Software Development, Black Arrow Gang"
-  images = ["/images/watermark_logo_transparent_background.png"]
+  keywords = "Software Development, Under App"
+  images = ["/images/logo.svg"]
 
   # Home subtitle of the index page.
   #
@@ -125,7 +125,7 @@ disableHugoGeneratorInject = false
     ]
 
   [params.favicon]
-    path = "/images/favicon-16x16.png"
+    path = "/images/logo.svg"
 
   # Colors for favicons
   #
@@ -145,7 +145,7 @@ disableHugoGeneratorInject = false
     logoCursorColor    = "#2ecf2e"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
     # logoCursorAnimate  = "2s"
-    path     = "/images/watermark_icon_transparent_background.png"
+    path     = "/images/logo.svg"
 
 
   # Commento is more than just a comments widget you can embed — 
@@ -162,51 +162,40 @@ disableHugoGeneratorInject = false
   # Uncomment this if you want a portrait on your start page
   #
   [params.portrait]
-    path     = "/images/watermark_logo_transparent_background.png"
-    alt      = "Portrait"
+    path     = "/images/logo.svg"
 
   [params.Video]
-    path     = "/images/Flame-9049.mp4"
+    path     = "/images/backvideo.mp4"
 
   # Social icons
   [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/"
-
-  [[params.social]]
-    name = "email"
-    url  = "mailto:nobody@example.com"
-
-  [[params.social]]
     name = "github"
-    url  = "https://github.com/"
-
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/"
-
-  [[params.social]]
-    name = "stackoverflow"
-    url  = "https://www.stackoverflow.com/"
+    url  = "https://github.com/Under-App"
 
 [languages]
   [languages.en]
     subtitle  = "Hello World!"
     weight    = 1
     [languages.en.params]
-        homeSubtitle = "The Best Software Development Studio"
+        homeSubtitle = "The Best Software Development Studio in Nogales Sonora"
 
   [languages.es]
     subtitle  = "Hola Mundo!"
     weight    = 2
     [languages.es.params]
-        homeSubtitle = "El Mejor Estudio de Desarrollo de Software"
+        homeSubtitle = "El Mejor Estudio de Desarrollo de Software de Nogales Sonora"
 
 [menu]
   [[menu.main]]
     identifier = "about"
     name       = "About"
     url        = "about/"
+    
+  [[menu.main]]
+    identifier = "services"
+    name       = "Services"
+    url        = "services/"
+
   [[menu.main]]
     identifier = "contact"
     name       = "Contact"
