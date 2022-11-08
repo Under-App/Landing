@@ -39,7 +39,10 @@ other = "{{ .Count }} Palabras"
 other = "Ultima actualización"
 
 [About]
-other = "Acerca de"
+other = "Acerca de Nosotros"
+
+[Services]
+other = "Servicios"
 
 [Contact]
 other = "Contactanos"
