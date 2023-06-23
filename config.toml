@@ -1,5 +1,5 @@
 baseURL = "https://under-app.github.io/Landing/"
-title   = "Under App"
+title   = "Under Apps"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -56,7 +56,7 @@ disableHugoGeneratorInject = false
   # Metadata mostly used in document's head
   # 
   description = "The Best Software Development Studio"
-  keywords = "Software Development, Under App"
+  keywords = "Software Development, Under Apps"
   images = ["/images/logo.svg"]
 
   # Home subtitle of the index page.
